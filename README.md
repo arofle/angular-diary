@@ -1,4 +1,4 @@
-
+Diary notes app made using Angular Routes, ngx-infinite-scroll, localstorage, Primeng and Quill for editing field.
 
 # AngularDiary
 
