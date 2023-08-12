@@ -1,0 +1,10 @@
+.create-diary-note-btn {
+    font-size: 1rem;
+    padding: 0.7em;
+    border: none;
+    background-color: var(--button-color-1);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 3px var(--shadow-color-1);
+}

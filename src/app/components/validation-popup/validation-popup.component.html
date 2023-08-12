@@ -1,0 +1,11 @@
+<div class="fail popup" *ngIf="isShowing && !isSuccessful">
+    <p>Сначала напишите что-нибудь</p>
+</div>
+
+<div class="success popup" *ngIf="isShowing && isSuccessful && !isForEditPage">
+    <p>Запись добавлена в дневник</p>
+</div>
+
+<div class="success popup" *ngIf="isShowing && isSuccessful && isForEditPage">
+    <p>Запись изменена</p>
+</div>

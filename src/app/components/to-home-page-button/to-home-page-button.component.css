@@ -1,0 +1,17 @@
+.to-home-page-btn {
+    display: flex;
+    align-items: center;
+}
+
+.to-home-page-btn svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.to-home-page-btn svg path {
+    fill: rgb(74, 121, 62);
+}
+
+.to-home-page-btn svg polyline {
+    fill: rgb(74, 121, 62);
+}

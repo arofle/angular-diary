@@ -1,0 +1,15 @@
+
+.popup {
+    padding: 0.5em;
+    padding-inline: 1rem;
+}
+
+.fail {
+    color: aliceblue;
+    background-color: rgba(190, 81, 81, 0.979);
+}
+
+.success {
+    color: aliceblue;
+    background-color: rgba(125, 180, 89, 0.979);
+}

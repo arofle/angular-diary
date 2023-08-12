@@ -1,0 +1,10 @@
+<ul *ngIf="diaryNotes && diaryNotes?.length != 0; else elseBlock" class="diary-notes" infiniteScroll [infiniteScrollDistance]="0.5" (scrolled)="onScroll()">
+    <app-diary-note *ngFor="let diaryNote of diaryNotes" [diaryNote]="diaryNote" (deleteNoteEvent)="deleteNoteById($event)" (addImageToNoteEvent)="addImageToNote($event)">
+    </app-diary-note>
+</ul>
+
+<ng-template #elseBlock>
+    <div class="empty-array">
+        <p>Список записей пуст</p>
+    </div>
+</ng-template>

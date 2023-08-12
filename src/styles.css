@@ -1,0 +1,61 @@
+/* Imports for diary note form */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import 'quill/dist/quill.core.css';
+@import 'quill/dist/quill.snow.css';
+@import 'quill/dist/quill.bubble.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Nunito+Sans:opsz@6..12&family=Literata:opsz@7..72');
+
+:root {
+    --shadow-color-1: rgba(0, 0, 0, 0.2);
+    --svg-color: rgb(82, 83, 83);
+    --button-color-1: rgba(7, 87, 47, 0.651);
+    --main-font: 'Literata', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-top: 30vh;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-flex
+}
+
+@media only screen and (max-width: 1150px) {
+    .container {
+        width: 55rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        width: 52rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 95%;
+    }
+}

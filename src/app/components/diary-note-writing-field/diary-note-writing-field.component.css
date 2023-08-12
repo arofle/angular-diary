@@ -1,0 +1,13 @@
+.editor {
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 5px 3px var(--shadow-color-1);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 0.1rem;
+}

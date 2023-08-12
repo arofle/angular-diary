@@ -1,0 +1,13 @@
+.diary-notes {
+    margin-block: 1rem;
+    padding-inline: 2.3rem;
+    padding-block: 1rem;
+    border-radius: 0.2rem;
+    background-color: rgb(137, 180, 182);
+    box-shadow: 2px 3px 5px var(--shadow-color-1);
+}
+
+.empty-array {
+    margin-top: 2rem;
+    text-align: center;
+}
